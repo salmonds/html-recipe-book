@@ -1,0 +1,25 @@
+body{
+    min-height: 100vh;
+    background-color: rgb(195, 173, 147);
+}
+
+.container{
+    display: grid;
+   
+    
+}
+
+nav {
+    background-color: white;
+}
+
+nav ul{
+    width: 100%;
+    display: grid;
+    align-self: center;
+    
+}
+
+nav li{
+    height:50%
+}
