@@ -23,7 +23,15 @@
     src: url("fonts/Catways.ttf")
 }
 
+@font-face {
+    font-family: "Tuna Sandwich";
+    src: url("fonts/Tuna Sandwich.otf")
+}
 
+@font-face {
+    font-family: "Baby Doll";
+    src: url("fonts/Baby Doll.ttf")
+}
 
 body{
     align-items: center;
@@ -32,10 +40,11 @@ body{
     background-color: rgb(195, 173, 147);
 }
 
-h2, h1, h3 {
+h1 {
    font-size: 2em; 
    font-family: "Catways";
    padding: .55em;
+   margin-top: 1.5em;
    color: rgb(248, 243, 228);
   border: 10px, 10px, 10px, black;
   border-radius: .50em;
@@ -46,6 +55,21 @@ h2, h1, h3 {
    margin-left: 2em;
    
 }
+
+h2, h3 {
+    font-size: 1em; 
+    font-family: "Adelia";
+    padding: .55em;
+    margin-top: 1.5em;
+    color: rgba(248, 243, 228, 0.561);
+   border: 10px, 10px, 10px, black;
+   border-radius: .55em;
+    border: .20em dotted rgb(246, 226, 200);
+    border-width: 75%;
+    max-width: fit-content;
+    margin-left: 10em;
+    
+ }
 
 header p a{
     text-decoration: none;
@@ -109,13 +133,13 @@ nav li:hover{
 main a{
  text-decoration: underline;
  font-family: "Red hands";
- font-size: 1.5em;
+ font-size: 1.10em;
  color: whitesmoke;
  transition: all .4s;
 }
 
 main a:hover{
-    font-size: 1.7em;
+    font-size: 1.20em;
     color: rgb(244, 227, 218);
 
 }
@@ -133,4 +157,16 @@ main p{
     font-size: 1.2em;
     padding: 2.5em;
     color:rgb(255, 247, 236);
+}
+img {
+    height: 15em;
+    border: .4em double rgb(255, 247, 236);
+    justify-content: center;
+    margin-left: 50%
+}
+
+section li, main li{
+    font-family: "Baby Doll";
+    font-size: 1.2em;
+    padding-top: .5em;
 }
