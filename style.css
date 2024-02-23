@@ -38,6 +38,8 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-color: rgb(195, 173, 147);
+   
+
 }
 
 h1 {
@@ -53,6 +55,7 @@ h1 {
    border-width: 100%;
    max-width: fit-content;
    margin-left: 2em;
+   background-color: (195, 173, 147);
    
 }
 
@@ -68,7 +71,8 @@ h2, h3 {
     border-width: 75%;
     max-width: fit-content;
     margin-left: 10em;
-    
+   
+
  }
 
 header p, header p a{
@@ -76,13 +80,13 @@ header p, header p a{
     font-size: 2.5em;
     font-family: "Crunch Chips outline";
     color: rgb(255, 238, 217);
-   
     text-shadow: 10px, 10px, 10px, black;
     padding-left: 10vh;
     transition: all 0.4s;
+    
 }
 
-header p:hover, header p a:hover {
+header p a:hover {
     color: rgb(99, 78, 50);
     font-size: 2.8em;
 }
@@ -100,6 +104,7 @@ nav ul{
 }
 
 nav li{
+    background-color: (195, 173, 147);
     border-color: rgb(150, 116, 90);
     border-width: .4em;
     border-style: double;
@@ -165,7 +170,7 @@ img {
     height: 15em;
     border: .4em double rgb(255, 247, 236);
     justify-content: center;
-    margin-left: 50%
+    margin-left: 50%;
 }
 
 section li, main li{
@@ -173,3 +178,4 @@ section li, main li{
     font-size: 1.2em;
     padding-top: .5em;
 }
+
